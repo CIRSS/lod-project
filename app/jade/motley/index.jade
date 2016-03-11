@@ -1,0 +1,93 @@
+extends /layouts/_default
+
+mixin biblio(title, info)
+  p
+    strong title
+    span=": "+info
+
+mixin icon(name)
+  | 
+  span.glyphicon(class!="glyphicon-"+name, aria-hidden="true",
+   data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?")
+  | 
+
+mixin icon-popover(name, title, content)
+  | 
+  span.glyphicon(class!="glyphicon-"+name, aria-hidden="true",
+   data-toggle="popover", title=title, data-html="true", data-content=content)
+  | 
+
+
+block content
+
+  .row
+    h2 1914: Sergeant and Grocer
+
+  .row
+    .col-sm-5.col-xs-12
+      img.img-responsive(src="/images/1914_Sergeant_and_Grocer.jpg")
+    .col-sm-7.col-xs-12
+      each val, name in bib
+        p
+          strong= name + ": "
+          span= val.text
+          if val.popup
+            +icon-popover("info-sign", val.text, val.popup)
+            p YAY!
+      p
+        strong Author / Composer: 
+        span Ustinov, Peter
+          +icon-popover("info-sign", "Peter Ustinov", "Ustinov, Peter (Peter Alexander), 1921-2004 (<a href='https://viaf.org/viaf/98273667/'>VIAF<a>)")
+          +icon("search")
+      p
+        strong Theater: 
+        span Vivian Beaumont Theater (New York, N.Y.)
+      p
+        strong Opening Performance: 
+        span Date  1967
+      p
+        strong Object: 
+        span Costume rendering
+      p
+        strong Type: 
+        span Image
+      p
+        strong Material/Techniques: 
+        span Felt tip pen
+      p
+        strong Dimensions: 
+        span 11 3/4 x 8 1/4
+      p
+        strong Notes: 
+        span This production also played in Lyons, London, and Stratford (Connecticut) - the same designs were used for later productions. The actors' names on the designs do not match the cast list of the original production because they were inserted on the designs later, in pencil, and indicate a later cast. Notes on some of the designs are in French, perhaps added during the Lyons production, "Soldat Inconnu". Some costumes are dated "Motley 72", and may have been new renderings prepared specifically for a later production.; See also 3 CRs under 730111 and the same title. These three designs (Wife, Arab and Barbarian) belong to this batch, two of them being dated "Motley 68"
+      p
+        strong Subject I (AAT): 
+        span costume design
+      p
+        strong costumes (character dress): 
+      p
+        strong Subject II (TGMI): 
+        span Theatrical productions
+      p
+        strong Costume design drawings: 
+      p
+        strong Subject (LCSH): 
+        span Theater--History
+      p
+        strong Rights: 
+        span Rare Book and Manuscript Library, University of Illinois at Urbana-Champaign; For questions regarding these materials, please contact the Rare Book and Manuscript Library: https://illinois.edu/fb/sec/7016277
+      p
+        strong Physical Location University of Illinois at Urbana-Champaign. Rare Book and Manuscript Library: 
+      p
+        strong Inventory Number: 
+        span 670706-057
+      p
+        strong JPEG2000 URL: 
+        span http://varuna.grainger.illinois.edu/motley/jp2/670706_057.jp2
+      p
+        strong Collection Title: 
+        span Motley Collection of Theatre and Costume Design (University of Illinois at Urbana-Champaign Library)
+
+  .row
+    .col-sm-9
+      img.img-responsive(src="/images/1914_Sergeant_and_Grocer.jpg")

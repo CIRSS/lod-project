@@ -1,0 +1,14 @@
+{
+	"test": "It really works!",
+	"bib": {
+		"Image Title": {
+		   "text": "1914: Sergeant and Grocer",
+		   "popup": "test"
+		},
+		"Performance Title": "Unknown Soldier and His Wife",
+		"Author / Composer": "Ustinov, Peter"
+	},
+	"info": {
+		"Author / Composer": "Ustinov, Peter"
+	}
+}
