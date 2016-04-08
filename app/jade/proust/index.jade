@@ -1,0 +1,80 @@
+extends /layouts/_default
+
+mixin entity(name)
+  a(data-toggle="popover", title="Entity Name", data-html="true",
+    data-content="Abstract about Person.<br/><a>Search Kolb-Proust Archive for more</a>")= name
+
+
+block content
+
+  .row
+    .col-sm-8.col-sm-push-4.col-xs-12
+      div
+        p
+          i Date: 1902 2 septembre (mardi)
+          br
+          i Record id: c28400
+        h3 Record
+        p
+          +entity("Proust")
+          |  donne un dîner où doivent assister 
+          +entity("les Noailles")
+          | , la 
+          +entity("princesse de Chimay")
+          | , [
+          +entity("C. de Brancovan")
+          | ?], 
+          +entity("Hermant")
+          | , 
+          +entity("Antoine Bibesco")
+          | , et 
+          +entity("Fénelon")
+          |  (
+          +entity("Gregh")
+          |  et 
+          +entity("Boncour")
+          |  en voyage). Et 
+          +entity("Jacques Blanche")
+          | ?
+        p
+          | "2e et vraisemblablement dernier grand dîner de la saison au 45."
+        h3 Bibliography
+        ul
+          li À Mme Proust, Cor III, p. 122, n. 62, lundi [1er septembre 1902]
+          li Cf. à Antoine Bibesco, Cor III, p. 119, n. 60 [lundi 25 août 1902]
+          li Cf. Georges de Lauris , a un ami, 1948, p. 27 (des fleurs pour le dîner)
+
+    .col-sm-4.col-sm-pull-8.col-xs-12
+      .panel.panel-primary
+        .panel-heading
+            strong Ward, Clara 1873-1916 (Clara Ward, Princesse de Caraman-Chimay)
+        .panel-body
+          p Clara Ward (17 June 1873 – 9 December 1916) was a wealthy American socialite who married a prince from Belgium.The story of Clara Ward, who commonly used one or another version of the title "Princesse de Caraman-Chimay", is poorly known today, but for some years in the early 1890s she was the toast of the United States. During the late 1890s and the Edwardian years she spent much time in both the society and gossip columns of two continents. 
+            a (DBPedia)
+          p
+            i Relationship: ... 
+          ul
+            li
+              a VIAF
+
+      .panel.panel-primary
+        .panel-heading Hermant, Abel, 1862-1950
+        .panel-body
+          p Abel Hermant (3 February 1862 – 29 September 1950) was a French novelist, playwright, essayist and writer, and member of the Académie française.
+            a (DBPedia)
+          p
+            i Relationship: ... 
+          ul
+            li
+              a VIAF
+
+      .panel.panel-primary
+        .panel-heading Noailles, Anna de, 1876-1933
+        .panel-body
+          p Anna, Comtesse Mathieu de Noailles (15 November 1876 – 30 April 1933) was a Romanian-French writer.
+            a (DBPedia)
+          p
+            i Occupation: Novelist, poet
+          ul
+            li
+              a VIAF
