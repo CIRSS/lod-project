@@ -1,4 +1,28 @@
 doctype html
+
+mixin biblio(title, info)
+  p
+    strong title
+    span=": "+info
+
+mixin icon(name, url)
+  | 
+  if url
+    a(href=url)
+      span.glyphicon(class!="glyphicon-"+name, aria-hidden="true")
+  else
+    span.glyphicon(class!="glyphicon-"+name, aria-hidden="true")
+  | 
+
+mixin icon-popover(name, title, content)
+  | 
+  span.glyphicon(class!="glyphicon-"+name, aria-hidden="true",
+   data-toggle="popover", title=title, data-html="true", data-content=content)
+  | 
+
+mixin info(title, content)
+  +icon-popover("info-sign", title, content)
+
 html(lang="en")
   head
     title lod-mockups
@@ -18,7 +42,7 @@ html(lang="en")
         .container
           p.navbar-brand LOD Mockups
 
-    .container-fluid
+    .container
       block content
 
     // Footer

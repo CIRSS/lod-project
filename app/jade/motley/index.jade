@@ -1,78 +1,41 @@
 extends /layouts/_default
 
-mixin biblio(title, info)
-  p
-    strong title
-    span=": "+info
-
-mixin icon(name)
-  | 
-  span.glyphicon(class!="glyphicon-"+name, aria-hidden="true",
-   data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?")
-  | 
-
-mixin icon-popover(name, title, content)
-  | 
-  span.glyphicon(class!="glyphicon-"+name, aria-hidden="true",
-   data-toggle="popover", title=title, data-html="true", data-content=content)
-  | 
-
-
 block content
 
   .row
-    h2 1914: Sergeant and Grocer
+    h2=bib["Image Title"].text
+
 
   .row
-    .col-sm-5.col-xs-12
+    .col-sm-8.col-sm-push-4.col-xs-12
       img.img-responsive(src="/images/1914_Sergeant_and_Grocer.jpg")
-    .col-sm-7.col-xs-12
+      br
+
       each val, name in bib
         p
           strong= name + ": "
           span= val.text
           if val.popup
-            +icon-popover("info-sign", val.text, val.popup)
-            p YAY!
-      p
-        strong Author / Composer: 
-        span Ustinov, Peter
-          +icon-popover("info-sign", "Peter Ustinov", "Ustinov, Peter (Peter Alexander), 1921-2004 (<a href='https://viaf.org/viaf/98273667/'>VIAF<a>)")
-          +icon("search")
-      p
-        strong Theater: 
-        span Vivian Beaumont Theater (New York, N.Y.)
-      p
-        strong Opening Performance: 
-        span Date  1967
-      p
-        strong Object: 
-        span Costume rendering
-      p
-        strong Type: 
-        span Image
-      p
-        strong Material/Techniques: 
-        span Felt tip pen
-      p
-        strong Dimensions: 
-        span 11 3/4 x 8 1/4
-      p
-        strong Notes: 
-        span This production also played in Lyons, London, and Stratford (Connecticut) - the same designs were used for later productions. The actors' names on the designs do not match the cast list of the original production because they were inserted on the designs later, in pencil, and indicate a later cast. Notes on some of the designs are in French, perhaps added during the Lyons production, "Soldat Inconnu". Some costumes are dated "Motley 72", and may have been new renderings prepared specifically for a later production.; See also 3 CRs under 730111 and the same title. These three designs (Wife, Arab and Barbarian) belong to this batch, two of them being dated "Motley 68"
+            +info(val.text, val.popup)
+          if val.search
+            +icon("search", val.search)
       p
         strong Subject I (AAT): 
         span costume design
-      p
-        strong costumes (character dress): 
+            +icon("search", "placeholder")
+        span costumes (character dress)
+            +icon("search", "placeholder")
       p
         strong Subject II (TGMI): 
         span Theatrical productions
-      p
-        strong Costume design drawings: 
+            +icon("search", "placeholder")
+        span Costume design drawings
+            +icon("search", "placeholder")
       p
         strong Subject (LCSH): 
         span Theater--History
+            +info("Subject Heading", "http://id.loc.gov/authorities/subjects/sh85134531.html")
+            +icon("search")
       p
         strong Rights: 
         span Rare Book and Manuscript Library, University of Illinois at Urbana-Champaign; For questions regarding these materials, please contact the Rare Book and Manuscript Library: https://illinois.edu/fb/sec/7016277
@@ -87,6 +50,50 @@ block content
       p
         strong Collection Title: 
         span Motley Collection of Theatre and Costume Design (University of Illinois at Urbana-Champaign Library)
+
+    .col-sm-4.col-sm-pull-8.col-xs-12#accordion
+      .panel.panel-primary
+        .panel-heading(role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne")!= bib["Performance Title"].text
+        .panel-body!= bib["Performance Title"].popup
+
+      .panel.panel-primary
+        .panel-heading!= bib["Author / Composer"].text
+        .panel-body!= bib["Author / Composer"].popup
+
+      .panel.panel-primary
+        .panel-heading!= bib["Theater"].text
+        .panel-body!= bib["Theater"].popup
+
+      .panel.panel-primary
+        .panel-heading External Resources
+        .panel-body
+          h4 People
+          p
+            ul
+              li!= bib["Author / Composer"].text
+                |  (note relationship to work here)
+              ul
+                li VIAF
+                li DbPedia
+                li LOC
+                li NY Times
+          h4 Works
+          p
+            ul
+              li!= bib["Performance Title"].text
+              ul
+                li VIAF
+                li LOC
+          h4 Places
+          p
+            ul
+              li!= bib["Theater"].text
+          h4 Subject
+          p
+            ul
+              li LOC
+
+
 
   .row
     .col-sm-9
