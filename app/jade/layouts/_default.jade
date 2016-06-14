@@ -23,7 +23,10 @@ mixin icon-popover(name, title, content)
 mixin info(title, content)
   +icon-popover("info-sign", title, content)
 
-html(lang="en")
+html(lang="en", xmlns:dbpprop="http://dbpedia.org/property/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    version="XHTML+RDFa 1.0"
+    xml:lang="en")
   head
     title lod-mockups
     meta(charset='UTF-8')
@@ -42,7 +45,7 @@ html(lang="en")
         .container
           p.navbar-brand LOD Mockups
 
-    .container
+    .container(prefix="schema: http://schema.org/ spc: http://imagesearchnew.library.illinois.edu/schemas/spc/ dc: http://purl.org/dc/terms/ rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#", typeof="schema:VisualArtwork", resource="http://imagesearchnew.library.illinois.edu/cdm/ref/collection/motley/id/8664")
       block content
 
     // Footer

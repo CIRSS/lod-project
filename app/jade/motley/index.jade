@@ -1,9 +1,22 @@
 extends /layouts/_default
 
+mixin record(val, name)
+  p(typeof=val.typeof, resource=val.resource)
+     strong= name + ": "
+     span(property=val.property)= val.text
+     if val.popup
+       +info(val.text, val.popup)
+     if val.search
+       +icon("search", val.search)
+
+mixin hidden_info(val)
+  span(typeof=val.typeof, resource=val.resource, property=val.property)
+            
+
 block content
 
   .row
-    h2=bib["Image Title"].text
+    h2(property="schema:name")=bib["Image Title"].text
 
 
   .row
@@ -12,44 +25,67 @@ block content
       br
 
       each val, name in bib
-        p
-          strong= name + ": "
-          span= val.text
-          if val.popup
-            +info(val.text, val.popup)
-          if val.search
-            +icon("search", val.search)
+        if val.relationship
+          div(property=val.relationship.property, typeof=val.relationship.typeof,
+              resource=val.relationship.resource)
+            +record(val, name)
+        else
+          +record(val, name)
+
+      each val in hidden
+        if val.relationship
+          div(property=val.relationship.property, typeof=val.relationship.typeof,
+              resource=val.relationship.resource)
+            +hidden_info(val)
+        else
+          +hidden_info(val)
+
       p
         strong Subject I (AAT): 
-        span costume design
+        span(property="schema:about") costume design
             +icon("search", "placeholder")
-        span costumes (character dress)
+        span(property="schema:about") costumes (character dress)
             +icon("search", "placeholder")
       p
         strong Subject II (TGMI): 
-        span Theatrical productions
+        span(property="schema:about") Theatrical productions
             +icon("search", "placeholder")
-        span Costume design drawings
+        span(property="schema:about") Costume design drawings
             +icon("search", "placeholder")
       p
         strong Subject (LCSH): 
         span Theater--History
             +info("Subject Heading", "http://id.loc.gov/authorities/subjects/sh85134531.html")
             +icon("search")
-      p
-        strong Rights: 
-        span Rare Book and Manuscript Library, University of Illinois at Urbana-Champaign; For questions regarding these materials, please contact the Rare Book and Manuscript Library: https://illinois.edu/fb/sec/7016277
-      p
-        strong Physical Location University of Illinois at Urbana-Champaign. Rare Book and Manuscript Library: 
+
+      p(property="schema:copyrightHolder", typeof="schema:Library", resource="http://www.library.illinois.edu/rbx")
+        strong Rights:
+        span(property="schema:name") Rare Book and Manuscript Library, University of Illinois at Urbana-Champaign
+        | ;
+        span(property="schema:description") For questions regarding these materials, please contact the Rare Book and Manuscript Library
+        | : 
+        span(property="schema:url") https://illinois.edu/fb/sec/7016277
+      
+      p(property="schema:provider", typeof="schema:Library", resource="http://www.library.illinois.edu/rbx")
+        strong Physical Location
+        span(property="schema:name") Rare Book and Manuscript Library
+        | :
+        span(property="schema:parentOrganization", typeof="schema:CollegeOrUniversity", resource="http://illinois.edu") 
+          span(property="schema:name") University of Illinois at Urbana-Champaign
+        | . 
       p
         strong Inventory Number: 
         span 670706-057
       p
         strong JPEG2000 URL: 
         span http://varuna.grainger.illinois.edu/motley/jp2/670706_057.jp2
-      p
+      
+      p(property="schema:isPartOf", typeof="schema:Collection"
+        resource="http://images.library.uiuc.edu/projects/motley",
+       )
         strong Collection Title: 
-        span Motley Collection of Theatre and Costume Design (University of Illinois at Urbana-Champaign Library)
+        span(property="schema:name") Motley Collection of Theatre and Costume Design
+        | (University of Illinois at Urbana-Champaign Library)
 
     .col-sm-4.col-sm-pull-8.col-xs-12#accordion
       .panel.panel-primary
