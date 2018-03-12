@@ -34,6 +34,19 @@ class Person(object):
 
 		self.fullname = fullname
 
+def searchAssocPeople(row, role):
+	if row[role].strip() != '':
+		names = row[role].split(';')
+		
+		name_srch = []
+		for name in names:
+			person = Person(name.strip())
+			name_srch.append(person.fullname + ', ' + role[role.find('(')+1:role.find(')')])
+		
+		return name_srch
+	else:
+		return []
+
 def addAssociatedPeople(name):
 	person = Person(name.strip())
 
@@ -189,6 +202,7 @@ with open('PoA-Names_WithLinks_Final.csv', 'r',encoding='utf-8') as peopleFile:
 
 def generateNewJSON(row,row_index,csv_length,fail_writer):
 	record = {}
+	searchRec = {}
 	stagework = {}
 	sys.stdout.write('Processed %d out of %d records	\r' % (row_index,csv_length))
 	sys.stdout.flush()
@@ -197,15 +211,23 @@ def generateNewJSON(row,row_index,csv_length,fail_writer):
 		# parse contentDm number from rdf file
 		rdfaLink = 'http://imagesearch-test1.library.illinois.edu/jsonld/actors/' + row['CONTENTdm number'] + '.json'
 		filename = row['CONTENTdm number'] + '.json'
+		contentDmNumber = row['CONTENTdm number']
 
 		refURL2 = row['Reference URL'].replace('imagesearchnew', 'imagesearch-test1')
+		thumbUrl = row['CONTENTdm file path'].strip().replace('image','jpg')
+		thumbUrl = thumbUrl[:thumbUrl.rfind('/')+1] + 'icon' + thumbUrl[thumbUrl.rfind('/')+1:]
 
 
 		#with open('motley-rdfa-google/' + row['CONTENTdm number'] + '.json', 'w') as output:
 		with open('PoA_JSON-LDs/' + filename, 'w') as output:
+			searchOut = open('poa-solr/' + contentDmNumber + '.json', 'w')
 			record['@context'] = [ 'http://schema.org/', { 's': 'http://schema.org/', 'scp': 'http://ns.library.illinois.edu/scp/', 'fileFormat': { '@id': 's:fileFormat', '@type': 's:Text' }, 'artform': { '@id': 's:artform', '@type': 's:Text' }, 'artworkSurface': { '@id': 's:artworkSurface', '@type': 's:Text' }, 'artMedium': { '@id': 's:artMedium', '@type': 's:Text' }, 'genre': { '@id': 's:genre', '@type': 's:Text' } } ]
 			# this must be changed to reference url
-			record['@id'] = refURL2;
+			searchRec['rdfId'] = contentDmNumber
+			record['@id'] = refURL2
+			searchRec['splashUrl'] = refURL2
+			searchRec['thumbUrl'] = 'http://imagesearch-test1.library.illinois.edu' + thumbUrl
+			searchRec['invNo'] = row['ID Number']
 #			record['sameAs'] = [ 'http://imagesearch-test1.library.illinois.edu/cdm/search/collection/motley-new/searchterm/' + row['Inventory Number']]
 #			if record['@id'] in handleDict:
 #				record['sameAs'].append(handleDict[record['@id']])
@@ -222,6 +244,7 @@ def generateNewJSON(row,row_index,csv_length,fail_writer):
 #			if object_content != '' and object_content in ['Character sketch', 'Costume design', 'Costume rendering', 'Costume sketch', 'Costume work drawing', 'Instrument rendering', 'Mask sketch', 'Prop design', 'Props', 'Sandals sketch', 'Set design', 'Set desing', 'Set detail', 'Set rendering', 'Sketch', 'Stage props', 'Working drawing']:
 #				record['@type'] = 'VisualArtwork'
 			record['name'] = row['Title'].strip()
+			searchRec['search_title'] = row['Title'].strip()
 			record['isPartOf'] = [{ '@id' : 'http://http://imagesearch-test1.library.illinois.edu/cdm/landingpage/collection/actors/',
 														'@type' : 'CreativeWork', 'additionalType' : 's:Collection'}]
 
@@ -231,6 +254,7 @@ def generateNewJSON(row,row_index,csv_length,fail_writer):
 
 			if row['Play'].strip() != '':			
 				stagework['name'] = row['Play'].strip()
+				searchRec['search_performance'] = stagework['name']
 				# niko add sameAs attribute
 				performance = stagework['name'];
 #				if performance in performanceDict.keys():
@@ -244,6 +268,7 @@ def generateNewJSON(row,row_index,csv_length,fail_writer):
 
 			if row['Date'].strip() != '':
 				stagework['dateCreated'] = row['Date'].strip()
+				searchRec['facet_openYear'] = stagework['dateCreated']
 
 			# ad multi theater 
 #			myTheaters = row['Theater'].split(';');
@@ -319,7 +344,13 @@ def generateNewJSON(row,row_index,csv_length,fail_writer):
 #					#add into author	 
 #					stagework['exampleOfWork']['author'].append(author);
 
+			searchContrib = []
+			searchContrib = searchContrib + searchAssocPeople(row, 'Creator')
 
+			if len(searchContrib) > 0:
+				searchRec['search_contributor'] = searchContrib
+			else:
+				searchRec['search_contributor'] = []
 			
 			contributors = []
 			subjects = row['Subject'].split(';')
@@ -348,12 +379,15 @@ def generateNewJSON(row,row_index,csv_length,fail_writer):
 
 
 			record['genre'] = 'Portrait'
+			searchRec['genre'] = 'Portrait'
 
 			if row['Type'].strip() != '' and record['@type'] == 'VisualArtwork':
 				record['artform'] = [t.strip() for t in row['Type'].split(';')]
+				searchRec['artform'] = [t.strip() for t in row['Type'].split(';')]
 
 			if row['Technique'].strip() != '' and record['@type'] == 'VisualArtwork':
 				record['artMedium'] = [mt.strip() for mt in row['Technique'].split(';')]
+				searchRec['artMedium'] = [mt.strip() for mt in row['Technique'].split(';')]
 
 #			if row['Support'].strip() != '' and record['@type'] == 'VisualArtwork':
 #				record['artworkSurface'] = row['Support'].strip()
@@ -367,8 +401,10 @@ def generateNewJSON(row,row_index,csv_length,fail_writer):
 					pass
 
 			record['description'] = []
+			searchRec['description'] = []
 			if row['Description'].strip() != '':
 				record['description'].append(row['Description'].strip())
+				searchRec['description'].append(row['Description'].strip())
 #			if row['Notes'].strip() != '':
 #				record['description'].append(row['Notes'].strip())
 
@@ -429,7 +465,10 @@ def generateNewJSON(row,row_index,csv_length,fail_writer):
 
 			record['isPartOf'].append(stagework)
 
+			searchOut.write(json.dumps(searchRec, indent=2))
+			searchOut.close()
 			output.write(json.dumps(record, indent=2))
+			print('Processed %d out of %d records	\r' % (row_index,csv_length))
 			
 def addComponentToCompoundObject(row,row_index,csv_length,fail_writer,parent_file):
 	sys.stdout.write('Processed %d out of %d records	\r' % (row_index,csv_length))
