@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>Test Page</title>
+
+        <meta property="og:title" content="Motley Collection of Theatre and Costume Design (New)" />
+        <link type="text/css" href="/ui/custom/default/collection/default/css/main.css" rel="stylesheet" />
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.20/jquery-ui.min.js"></script>
+    </head>
+    <body>
+        <!-- HEADER -->
+	    <div id="headerWrapper" tabindex="1000">
+            <p><span style="font-size: xx-large; color: #ffffff;"><strong><span style="letter-spacing: -1px; font-family: arial,helvetica,sans-serif; margin-left: 15px;">Linked Open Data Website</span></strong></span></p>
+            <span class="clear"></span>
+        </div>
+
+        <!--  NAV_TOP -->
+        <div id="nav_top">
+            <div id="nav_top_left">
+                <ul class="nav">
+                    <li class="nav_li">
+                        <a tabindex="1001" id="nav_top_left_first_link" href="/cdm/"  >
+                            <div class="nav_top_left_text_container">Home</div>
+                        </a>
+                    </li>
+                    <li class="nav_li">
+                        <a tabindex="1002"  href="/cdm/landingpage/collection/motley-new"  >
+                            <div class="nav_top_left_text_container">Motley Collection</div>
+                        </a>
+                    </li>       
+                </ul>
+            </div>
+        </div>
+
+        <!-- BEGIN TOP CONTENT -->
+        <div id="top_content">
+            <div id="breadcrumb_top">
+                    <div id="breadcrumb_top_content">
+                        <a href="/cdm/" class="action_link_10" tabindex="15">Home</a>
+                        <img src="/ui/cdm/default/collection/default/css/images/double_arrow_e.png" alt="arrow" />
+                        <a href="/cdm/landingpage/collection/motley-new" class="action_link_10" tabindex="16"> Motley Collection of Theatre and Costume Design (New)</a>
+                        <img src="/ui/cdm/default/collection/default/css/images/double_arrow_e.png" alt="arrow" /> 
+                        <a href="/browse_motley.html" class="action_link_10" tabindex="17"> Browse All</a>
+                        <img src="/ui/cdm/default/collection/default/css/images/double_arrow_e.png" alt="arrow" /> 
+                    </div>
+                </div>
+
+            <table id="item_table">
+            </table>
+
+            <script>
+                let url_string = window.location.href;
+                let url = new URL(url_string);
+                let group = url.searchParams.get("g");
+                if (group !== null) {
+                    document.title = "Browse by " + group.replace(/\b[a-z]/g, function(letter) { return letter.toUpperCase(); }) + "s";
+                    let search_query = 'http://imagesearch-test1.library.illinois.edu/solrproxy/getsolrresult.asp?q=*:*';
+
+                    if (group === 'performance') {
+                        $("#breadcrumb_top_content").append(' Performances');
+                        search_query += '&fl=search_performance&facet=on&facet.field=search_performance&facet.sort=index&facet.limit=252&rows=1';
+                        $("#item_table").append('<tr><th>Performance</th><th>Items</th></tr>');
+                    }
+                    else if (group === 'theater') {
+                        $("#breadcrumb_top_content").append(' Theaters');
+                        search_query += '&fl=search_theater&facet=on&facet.field=search_theater&facet.sort=index&row=1';
+                        $("#item_table").append('<tr><th>Theater</th><th>Items</th></tr>');
+                    }
+                    else {
+                        search_query = '';
+                    }
+
+                    if (search_query.length > 0) {
+                        $.get(search_query, function(data) {
+                            let search_group = '';
+                            if (group === 'performance') {
+                                search_group = 'search_performance';
+                            }
+                            else if (group === 'theater') {
+                                search_group = 'search_theater';
+                            }
+                            let items = data.facet_counts.facet_fields[search_group];
+                            for (let i = 0; i < items.length; i+=2) {
+                                $("#item_table").append('<tr><th><a href="/browse_group.html?g=' + group + '&t=' + items[i] + '">' + items[i] + '</a></th><th>' + items[i+1] + '</th></tr>');
+                            }
+                        });
+                    }
+                }
+            </script>
+        </div>
+
+        <!-- END TOP CONTENT -->
+
+        <!-- FOOTER -->
+        <span class="clear"></span>
+        <div id="cdmFooterWrapper" class="spaceMar20T">
+            <div id="backToTopLink" class="float_left spaceMar20L"><a href="#top" class="action_link_10" data-analytics='{"category":"navigation","action":"click","label":"Back to top link"}'>Back to top</a></div>
+            <span class="clear"></span>
+            <div id="nav_footer">
+                <div id="nav_footer_left">
+                    <ul class="nav">
+                        <li class="nav_footer_li"><a href="/cdm/">Home</a></li>
+                    </ul>
+                </div>
+                <br /><br />
+            </div>
+            <span class="clear"></span>
+        </div>
+    </body>
+</html>
