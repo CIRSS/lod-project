@@ -1,0 +1,263 @@
+.link_degree1 {
+	stroke-opacity: 0.8;
+	stroke: #999;
+}
+
+.link_degree2 {
+	stroke-opacity: 0.3;
+	stroke: #999;
+}
+
+.link_degree3 {
+	stroke-opacity: 0.15;
+	stroke: #999;
+}
+
+.link_highlighted {
+	stroke: #900;
+	stroke-opacity: 0.6;
+}
+
+.nodes circle {
+	stroke: #fff;
+	stroke-width: 1.5px;
+}
+
+.view {
+	background-color: white;
+}
+
+.ticks {
+	font: 10px sans-serif;
+}
+
+.track,
+.track-inset,
+.track-overlay {
+	stroke-linecap: round;
+}
+
+.track {
+	stroke: #000;
+	stroke-opacity: 0.3;
+	stroke-width: 10px;
+}
+
+.track-inset {
+	stroke: #ddd;
+	stroke-width: 8px;
+}
+
+.track-overlay {
+	pointer-events: stroke;
+	stroke-width: 50px;
+	stroke: transparent;
+}
+
+.handle {
+	fill: #fff;
+	stroke: #000;
+	stroke-opacity: 0.5;
+	stroke-width: 1.25px;
+}
+
+div.tooltip {
+	opacity: .75;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	padding-left: 3px;
+	padding-right: 4px;
+	text-align: center;
+	background-color: black;
+	color: white;
+	border: 1px white;
+	border-radius: 3px;
+}
+
+.node-annotation text, .link-annotation text {
+	font-family: sans-serif;
+	fill: white;
+/*	text-shadow: 0px 0px 2px white;*/
+}
+
+div.annotate {
+	background-color: white;
+	padding: 5px;
+	border: 1px black;
+}
+
+.context-menu-list {
+	z-index: 1000;
+	position: absolute;
+/*	overflow: hidden;*/
+	border: 1px solid #CCC;
+	white-space: nowrap;
+	font-family: sans-serif;
+	background: #FFF;
+	color: #333;
+	border-radius: 5px;
+	padding-left: 0px;
+}
+
+.context-menu-list li {
+	padding: 8px 12px;
+	cursor: pointer;
+	list-style-type: none;
+}
+
+.context-menu-list li:hover {
+	background-color: #DEF;
+}
+
+.context-menu-list li > ul {
+	visibility: hidden;
+}
+
+.context-menu-list li:hover > ul {
+	visibility: visible;
+}
+
+.context-menu-list li:hover > ul > li {
+	z-index: 1001;
+}
+
+div[role=dialog] {
+	background-color: white;
+/*	padding: 10px;*/
+	border:  1px solid #CCC;
+	font-family: sans-serif;
+}
+
+.ui-dialog-titlebar {
+	text-align: center;
+	padding-top: 15px;
+	padding-left: 15px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	background-color: #96c9f3;
+}
+
+#ui-id-1 {
+	display: inline-block;
+}
+
+.ui-dialog-titlebar button {
+	float: right;
+}
+
+#dialog-form {
+	padding-top: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.ui-dialog-buttonpane {
+	margin: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.ui-dialog {
+	z-index: 100;
+}
+
+form input {
+	margin-bottom: 5px;
+}
+
+circle.annotated {
+	stroke-width: 2px;
+	stroke: #ff006a;
+}
+
+textarea {
+	width: 80%;
+	max-width: 99%;
+	height: 56px;
+	max-height: 56px;
+}
+
+#link {
+	width: 70%;
+}
+
+.annotation-note-bg {
+	fill: rgba(0,0,0,1);
+	fill-opacity: 1;
+	stroke: rgba(0,0,0,1);
+	stroke-width: 6px;
+/*	opacity: 0.75;*/
+}
+
+.annotation-note-content {
+	opacity: 0.75;
+}
+
+#container {
+	width: 960px;
+}
+
+#graph_title {
+	font-family: sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+#page_title {
+	font-family: sans-serif;;
+	font-weight: bold;
+	font-size: 14pt;
+	text-align: center;
+}
+
+.select {
+	position: absolute;
+	top: 10px;
+	left: 970px;
+	z-index: 1;
+	font-size: 14pt;
+}
+
+#view_annotations {
+	position: absolute;
+	top: 45px;
+	left: 970px;
+
+	-webkit-border-radius: 4;
+	-moz-border-radius: 4;
+	border-radius: 4px;
+	border: none;
+	font-family: sans-serif;
+	color: #ffffff;
+	font-size: 15px;
+	background: #ff006a;
+	padding: 10px 20px 10px 20px;
+	outline: none;
+}
+
+#view_annotations:hover {
+	background: #fa5091;
+	outline: none;
+	border: none;
+}
+
+#view_annotations:active {
+	outline: none;
+	border: none;
+	top: 46px;
+}
+
+#example_focus {
+	border-radius: 50%;
+	background: #660099;
+	position: absolute;
+}
+
+#note {
+	font-family: sans-serif;
+	position: absolute;
+	top: 90px;
+	left: 970px;
+	font-size: 11px;
+}

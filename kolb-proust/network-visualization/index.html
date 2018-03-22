@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<svg id="network" width="960" height="600"></svg>
+	<svg id="timeline" width="960" height="40"></svg>
+	<script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js" integrity="sha256-T0Vest3yCU7pafRw9r+settMBX6JkKN06dqBnpQ8d30=" crossorigin="anonymous"></script>
+	<script src="https://d3js.org/d3.v4.min.js"></script>
+	<script src="https://d3js.org/d3-color.v1.min.js"></script>
+	<script src="https://d3js.org/d3-interpolate.v1.min.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/d3-annotation/2.1.0/d3-annotation.min.js"></script>
+	<script src="jQuery-contextMenu/src/jquery.contextMenu.js"></script>
+	<script src="jQuery-contextMenu/src/jquery.ui.position.js"></script>
+	<link href="jQuery-contextMenu/dist/jquery.contextMenu.css">
+	<link href="visualization.css" rel="stylesheet" media="screen">
+</head>
+<body>
+	<script src="visualization.js"></script>
+	<script src="dataProcessing.js"></script>
+	<div id="container">
+		<div id="page_title">Network of Family Connections Derived From Notes of Philip Kolb About the Life of Marcel Proust</div>
+		<div id="graph_title_parent">
+			<div id="graph_title"><div id="example_focus"></div></div>
+		</div>
+	</div>
+
+	<div id="dialog-form" title="Add Annotation">
+		<form>
+			<label for="comment">Comment</label><br>
+			<textarea id="comment"></textarea><br>
+			<label for="link">Link</label><br>
+			<input type="url" id="link" value="http://">
+		</form>
+	</div>
+	<div id="annotations_display" title="Annotations In JSON Format"></div>
+
+	<button id="view_annotations">Get Annotations As JSON</button>
+	<div id="note">Refresh to see new annotations.</div>
+</body>
+</html>
