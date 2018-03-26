@@ -1,0 +1,8 @@
+[submodule "Fix-Authorities"]
+	path = Fix-Authorities
+	url = https://github.com/dkudeki/Fix-Authorities
+	branch = simple-name-reconciliation
+[submodule "simple-name-reconciliation"]
+	path = simple-name-reconciliation
+	url = https://github.com/dkudeki/Fix-Authorities
+	branch = simple-name-reconciliation
