@@ -1,9 +1,8 @@
 # Repository for "Exploring the Benefits for Users of Linked Open Data for Digitized Special Collections"
-Subfolders contain scripts and code for particular project tasks
 
 - [Project Home Page](http://publish.illinois.edu/linkedspcollections/)
 
-### Folders:
+### Subfolders:
 
 - **kolb-proust**: includes XSLT and Python scripts for enriching cards (TEI-XML), displaying cards in [XTF](https://xtf.cdlib.org/), and adding links to references that have been digitized; also includes scripts for creating and displaying json of family name co-occurence tables as graphs in browser (using [D3 js library](https://d3js.org/) and [D3-Annotation js library](http://d3-annotation.susielu.com/)).
 - **linked-sp-mockups**: early mockups of interface designs that make use of links to name, performance, and theater entities.
