@@ -1,0 +1,1291 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Kudeki, Deren Emre</Author>
+  <LastAuthor>Kudeki, Deren Emre</LastAuthor>
+  <Created>2018-06-22T15:23:57Z</Created>
+  <LastSaved>2018-06-22T15:24:50Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>14820</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64">
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
+    ss:Bold="1"/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="Sheet1">
+  <Table ss:ExpandedColumnCount="23" ss:ExpandedRowCount="101" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Row>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">FullName</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">AfterComma</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">localId</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">familyName</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">memberOf</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">givenName</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">birthDate</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">deathDate</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">gender</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">nationality</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">honorificPrefix</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">description</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">jobTitle</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">spouse</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">children</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">parent</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">sibling</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Record_About</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">VIAF_Name</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">VIAF_Link</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">EN_WIKIPEDIA</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">FR_WIKIPEDIA</Data></Cell>
+    <Cell ss:StyleID="s64"><Data ss:Type="String">Other Sources</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Abbema, Louise</Data></Cell>
+    <Cell><Data ss:Type="String">Louise</Data></Cell>
+    <Cell><Data ss:Type="String">abbema1</Data></Cell>
+    <Cell><Data ss:Type="String">Abbema</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Louise</Data></Cell>
+    <Cell><Data ss:Type="String">1858</Data></Cell>
+    <Cell><Data ss:Type="String">1927</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">French</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">peintre française</Data></Cell>
+    <Cell><Data ss:Type="String">Painter</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">Abbéma, Louise 1858-1927</Data></Cell>
+    <Cell><Data ss:Type="String">27114053</Data></Cell>
+    <Cell><Data ss:Type="String">https://en.wikipedia.org/wiki/Louise_Abbéma</Data></Cell>
+    <Cell><Data ss:Type="String">https://fr.wikipedia.org/wiki/Louise_Abbéma</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Abd el-Kader</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">abdelk1</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">1808</Data></Cell>
+    <Cell><Data ss:Type="String">1883</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Algerian</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">chef religieux et militaire algérien</Data></Cell>
+    <Cell><Data ss:Type="String">religious and military leader</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Abel</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">abel1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">personnage biblique</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">About, Edmond</Data></Cell>
+    <Cell><Data ss:Type="String">Edmond</Data></Cell>
+    <Cell><Data ss:Type="String">about1</Data></Cell>
+    <Cell><Data ss:Type="String">About</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Edmond</Data></Cell>
+    <Cell><Data ss:Type="String">1828</Data></Cell>
+    <Cell><Data ss:Type="String">1885</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">homme de lettres</Data></Cell>
+    <Cell><Data ss:Type="String">homme de lettres</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">About, Edmond, 1828-1885</Data></Cell>
+    <Cell><Data ss:Type="String">34452092</Data></Cell>
+    <Cell><Data ss:Type="String">https://en.wikipedia.org/wiki/Edmond_François_Valentin_About</Data></Cell>
+    <Cell><Data ss:Type="String">https://fr.wikipedia.org/wiki/Edmond_About</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Abraham, Pierre</Data></Cell>
+    <Cell><Data ss:Type="String">Pierre</Data></Cell>
+    <Cell><Data ss:Type="String">abraha1</Data></Cell>
+    <Cell><Data ss:Type="String">Abraham</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Pierre</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Auteur de &quot;Proust&quot;</Data></Cell>
+    <Cell><Data ss:Type="String">author</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">Abraham, Pierre, 1892-1974</Data></Cell>
+    <Cell><Data ss:Type="String">63999898</Data></Cell>
+    <Cell><Data ss:Type="String">https://en.wikipedia.org/wiki/Pierre_Abraham</Data></Cell>
+    <Cell><Data ss:Type="String">https://fr.wikipedia.org/wiki/Pierre_Abraham</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Abrami, Dr Pierre</Data></Cell>
+    <Cell><Data ss:Type="String">Dr Pierre</Data></Cell>
+    <Cell><Data ss:Type="String">abrami1</Data></Cell>
+    <Cell><Data ss:Type="String">Abrami</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Dr Pierre</Data></Cell>
+    <Cell><Data ss:Type="String">1879</Data></Cell>
+    <Cell><Data ss:Type="String">1945</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Abrantès, comte Michel d'</Data></Cell>
+    <Cell><Data ss:Type="String">comte Michel d'</Data></Cell>
+    <Cell><Data ss:Type="String">abrant1</Data></Cell>
+    <Cell><Data ss:Type="String">Abrantès</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">comte Michel d'</Data></Cell>
+    <Cell><Data ss:Type="String">1880</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Count</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Abrantès, Laure Permon, duchesse d'</Data></Cell>
+    <Cell><Data ss:Type="String">Laure Permon, duchesse d'</Data></Cell>
+    <Cell><Data ss:Type="String">abrant2</Data></Cell>
+    <Cell><Data ss:Type="String">Abrantès</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">1784</Data></Cell>
+    <Cell><Data ss:Type="String">1838</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Duchess</Data></Cell>
+    <Cell><Data ss:Type="String">wife of: général Andoche Junot</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String">Junot, Andoche (Général)</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Académus, ou Académos</Data></Cell>
+    <Cell><Data ss:Type="String">ou Académos</Data></Cell>
+    <Cell><Data ss:Type="String">academ3</Data></Cell>
+    <Cell><Data ss:Type="String">Académus</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">ou Académos</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Greek</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">héros grec</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Acaste, ou Aceste, ou Acestes</Data></Cell>
+    <Cell><Data ss:Type="String">ou Aceste, ou Acestes</Data></Cell>
+    <Cell><Data ss:Type="String">acaste1</Data></Cell>
+    <Cell><Data ss:Type="String">Acaste</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Greek</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">personnage mythologique : un des Argonautes</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Achard, Mlle M.</Data></Cell>
+    <Cell><Data ss:Type="String">Mlle M.</Data></Cell>
+    <Cell><Data ss:Type="String">achard1</Data></Cell>
+    <Cell><Data ss:Type="String">Achard</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">harpiste</Data></Cell>
+    <Cell><Data ss:Type="String">harpist</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Achille</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">achill1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Greek</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">personnage de la mythologie grecque</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Acker, Paul</Data></Cell>
+    <Cell><Data ss:Type="String">Paul</Data></Cell>
+    <Cell><Data ss:Type="String">acker1</Data></Cell>
+    <Cell><Data ss:Type="String">Acker</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Paul</Data></Cell>
+    <Cell><Data ss:Type="String">1874</Data></Cell>
+    <Cell><Data ss:Type="String">1915</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">journaliste</Data></Cell>
+    <Cell><Data ss:Type="String">journalist; author</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">Acker, Paul, 1874-1915</Data></Cell>
+    <Cell><Data ss:Type="String">71420451</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">https://fr.wikipedia.org/wiki/Paul_Acker</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ackermann, Louise-Victorine Choquet, Mme</Data></Cell>
+    <Cell><Data ss:Type="String">Louise-Victorine Choquet, Mme</Data></Cell>
+    <Cell><Data ss:Type="String">ackerm1</Data></Cell>
+    <Cell><Data ss:Type="String">Ackermann; Choquet</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">1813</Data></Cell>
+    <Cell><Data ss:Type="String">1890</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell ss:Index="21"><Data ss:Type="String">https://en.wikipedia.org/wiki/Louise-Victorine_Ackermann</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ackté(ou Achté, ou Ackté-Jalander), Aïno</Data></Cell>
+    <Cell><Data ss:Type="String">ou Ackté-Jalander), Aïno</Data></Cell>
+    <Cell><Data ss:Type="String">ackte1</Data></Cell>
+    <Cell><Data ss:Type="String">Ackté</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">1876</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">Finnish</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">chanteuse finlandaise</Data></Cell>
+    <Cell><Data ss:Type="String">singer</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Acteur (un)</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">acteur1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">correspondant de Proust non identifié</Data></Cell>
+    <Cell><Data ss:Type="String">actor</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Adam, famille</Data></Cell>
+    <Cell><Data ss:Type="String">famille</Data></Cell>
+    <Cell><Data ss:Type="String">adam0</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Adam, Mme Hippolyte; née Perrochaud</Data></Cell>
+    <Cell><Data ss:Type="String">Mme Hippolyte; née Perrochaud</Data></Cell>
+    <Cell><Data ss:Type="String">adam1</Data></Cell>
+    <Cell><Data ss:Type="String">Adam; Perrochaud</Data></Cell>
+    <Cell><Data ss:Type="String">adam0</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">1914</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">mère de Mme Léon Yeatman</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String">adam6</Data></Cell>
+    <Cell><Data ss:Type="String">yeatma2</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Adam, mssr.</Data></Cell>
+    <Cell><Data ss:Type="String">mssr.</Data></Cell>
+    <Cell><Data ss:Type="String">adam2</Data></Cell>
+    <Cell><Data ss:Type="String">Adam</Data></Cell>
+    <Cell><Data ss:Type="String">adam0</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">fils d'un banquier</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String">pavie1</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Adam, Paul</Data></Cell>
+    <Cell><Data ss:Type="String">Paul</Data></Cell>
+    <Cell><Data ss:Type="String">adam3</Data></Cell>
+    <Cell><Data ss:Type="String">Adam</Data></Cell>
+    <Cell><Data ss:Type="String">adam0</Data></Cell>
+    <Cell><Data ss:Type="String">Paul</Data></Cell>
+    <Cell><Data ss:Type="String">1862</Data></Cell>
+    <Cell><Data ss:Type="String">1920</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">homme de lettres</Data></Cell>
+    <Cell><Data ss:Type="String">homme de lettres</Data></Cell>
+    <Cell><Data ss:Type="String">adam4</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">Adam, Paul, 1862-1920</Data></Cell>
+    <Cell><Data ss:Type="String">4938246</Data></Cell>
+    <Cell><Data ss:Type="String">https://en.wikipedia.org/wiki/Paul_Adam_(French_novelist)</Data></Cell>
+    <Cell><Data ss:Type="String">https://fr.wikipedia.org/wiki/Paul_Adam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Adam, Marthe Meyer, Mme Paul</Data></Cell>
+    <Cell><Data ss:Type="String">Marthe Meyer, Mme Paul</Data></Cell>
+    <Cell><Data ss:Type="String">adam4</Data></Cell>
+    <Cell><Data ss:Type="String">Adam; Meyer</Data></Cell>
+    <Cell><Data ss:Type="String">adam0; meyer0</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String">adam3</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">meyer4</Data></Cell>
+    <Cell><Data ss:Type="String">meyer6</Data></Cell>
+    <Cell><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Adam, Juliette Lamber, Mme Edmond</Data></Cell>
+    <Cell><Data ss:Type="String">Juliette Lamber, Mme Edmond</Data></Cell>
+    <Cell><Data ss:Type="String">adam5</Data></Cell>
+    <Cell><Data ss:Type="String">Adam; Lamber</Data></Cell>
+    <Cell><Data ss:Type="String">adam0</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">1836</Data></Cell>
+    <Cell><Data ss:Type="String">1936</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">femme de lettres</Data></Cell>
+    <Cell><Data ss:Type="String">femme de lettres</Data></Cell>
+    <Cell><Data ss:Type="String">adam9</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Adam, Hippolyte</Data></Cell>
+    <Cell><Data ss:Type="String">Hippolyte</Data></Cell>
+    <Cell><Data ss:Type="String">adam6</Data></Cell>
+    <Cell><Data ss:Type="String">Adam</Data></Cell>
+    <Cell><Data ss:Type="String">adam0</Data></Cell>
+    <Cell><Data ss:Type="String">Hippolyte</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">beau-père de Léon Yeatman; father-in-law of yeatma1</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String">adam1</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">Adam, Hippolyte-Benjamin 1808-1853</Data></Cell>
+    <Cell><Data ss:Type="String">227072603</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Adam, Antoine</Data></Cell>
+    <Cell><Data ss:Type="String">Antoine</Data></Cell>
+    <Cell><Data ss:Type="String">adam7</Data></Cell>
+    <Cell><Data ss:Type="String">Adam</Data></Cell>
+    <Cell><Data ss:Type="String">adam0</Data></Cell>
+    <Cell><Data ss:Type="String">Antoine</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">Adam, Antoine, 1899-1980</Data></Cell>
+    <Cell><Data ss:Type="String">29542201</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">https://fr.wikipedia.org/wiki/Antoine_Adam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Adam, Adolphe</Data></Cell>
+    <Cell><Data ss:Type="String">Adolphe</Data></Cell>
+    <Cell><Data ss:Type="String">adam8</Data></Cell>
+    <Cell><Data ss:Type="String">Adam</Data></Cell>
+    <Cell><Data ss:Type="String">adam0</Data></Cell>
+    <Cell><Data ss:Type="String">Adolphe</Data></Cell>
+    <Cell><Data ss:Type="String">1803</Data></Cell>
+    <Cell><Data ss:Type="String">1856</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">compositeur</Data></Cell>
+    <Cell><Data ss:Type="String">composer</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">Adam, Adolphe, 1803-1856.</Data></Cell>
+    <Cell><Data ss:Type="String">12370239</Data></Cell>
+    <Cell><Data ss:Type="String">https://en.wikipedia.org/wiki/Adolphe_Adam</Data></Cell>
+    <Cell><Data ss:Type="String">https://fr.wikipedia.org/wiki/Adolphe_Adam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Adam, Edmond</Data></Cell>
+    <Cell><Data ss:Type="String">Edmond</Data></Cell>
+    <Cell><Data ss:Type="String">adam9</Data></Cell>
+    <Cell><Data ss:Type="String">Adam</Data></Cell>
+    <Cell><Data ss:Type="String">adam0</Data></Cell>
+    <Cell><Data ss:Type="String">Edmond</Data></Cell>
+    <Cell><Data ss:Type="String">1816</Data></Cell>
+    <Cell><Data ss:Type="String">1877</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">banquier</Data></Cell>
+    <Cell><Data ss:Type="String">banker; politician</Data></Cell>
+    <Cell><Data ss:Type="String">adam5</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">Adam, Edmond 1816-1877</Data></Cell>
+    <Cell><Data ss:Type="String">36912154</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">https://fr.wikipedia.org/wiki/Edmond_Adam</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Adda, Mlle</Data></Cell>
+    <Cell><Data ss:Type="String">Mlle</Data></Cell>
+    <Cell><Data ss:Type="String">adda1</Data></Cell>
+    <Cell><Data ss:Type="String">Adda</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Mlle</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">musicienne</Data></Cell>
+    <Cell><Data ss:Type="String">musician</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Adelgise</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adelgi1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">personnage des &quot;Plaisirs et les Jours&quot;</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Adelsward, baron d'</Data></Cell>
+    <Cell><Data ss:Type="String">baron d'</Data></Cell>
+    <Cell><Data ss:Type="String">adelsw1</Data></Cell>
+    <Cell><Data ss:Type="String">Adelsward</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">baron d'</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Baron</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Adelsward, baronne d'</Data></Cell>
+    <Cell><Data ss:Type="String">baronne d'</Data></Cell>
+    <Cell><Data ss:Type="String">adelsw2</Data></Cell>
+    <Cell><Data ss:Type="String">Adelsward</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">baronne d'</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Baroness</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Adelsward-Fersen, baron Jacques d'</Data></Cell>
+    <Cell><Data ss:Type="String">baron Jacques d'</Data></Cell>
+    <Cell><Data ss:Type="String">adelsw3</Data></Cell>
+    <Cell><Data ss:Type="String">Adelsward-Fersen</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">baron Jacques d'</Data></Cell>
+    <Cell><Data ss:Type="String">1880</Data></Cell>
+    <Cell><Data ss:Type="String">1912</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Baron</Data></Cell>
+    <Cell><Data ss:Type="String">affaire Adelsward-Warren</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Adéma, Marcel</Data></Cell>
+    <Cell><Data ss:Type="String">Marcel</Data></Cell>
+    <Cell><Data ss:Type="String">adema1</Data></Cell>
+    <Cell><Data ss:Type="String">Adéma</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Marcel</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">spécialiste d'Apollinaire</Data></Cell>
+    <Cell><Data ss:Type="String">homme de lettres</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">Adéma, Marcel</Data></Cell>
+    <Cell><Data ss:Type="String">22236421</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Aderer, Adolphe</Data></Cell>
+    <Cell><Data ss:Type="String">Adolphe</Data></Cell>
+    <Cell><Data ss:Type="String">aderer1</Data></Cell>
+    <Cell><Data ss:Type="String">Aderer</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Adolphe</Data></Cell>
+    <Cell><Data ss:Type="String">1855</Data></Cell>
+    <Cell><Data ss:Type="String">1923</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">homme de lettres</Data></Cell>
+    <Cell><Data ss:Type="String">homme de lettres</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">Aderer, Adolphe, 1855-1923</Data></Cell>
+    <Cell><Data ss:Type="String">46791481</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Adiny, Ada Chapman, dite Ada; Mme Paul Milliet</Data></Cell>
+    <Cell><Data ss:Type="String">Ada Chapman, dite Ada; Mme Paul Milliet</Data></Cell>
+    <Cell><Data ss:Type="String">adiny1</Data></Cell>
+    <Cell><Data ss:Type="String">Adiny</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">1855</Data></Cell>
+    <Cell><Data ss:Type="String">1924</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">chanteuse</Data></Cell>
+    <Cell><Data ss:Type="String">singer</Data></Cell>
+    <Cell><Data ss:Type="String">millie1</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Admète</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">admete1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">Greek</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">personnage de la mythologie grecque</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Adolphe</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">adolph1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">chauffeur de Louis d'Albufera</Data></Cell>
+    <Cell><Data ss:Type="String">chauffeur</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Adolphe, oncle</Data></Cell>
+    <Cell><Data ss:Type="String">oncle</Data></Cell>
+    <Cell><Data ss:Type="String">adolph2</Data></Cell>
+    <Cell><Data ss:Type="String">Adolphe</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">oncle</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">personnage de la Recherche</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ador, Mary</Data></Cell>
+    <Cell><Data ss:Type="String">Mary</Data></Cell>
+    <Cell><Data ss:Type="String">ador1</Data></Cell>
+    <Cell><Data ss:Type="String">Ador</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Mary</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">chanteuse ou musicienne</Data></Cell>
+    <Cell><Data ss:Type="String">singer; musician</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Afghanistan, Emir d'</Data></Cell>
+    <Cell><Data ss:Type="String">Emir d'</Data></Cell>
+    <Cell><Data ss:Type="String">afghan1</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Emir d'</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Afghan</Data></Cell>
+    <Cell><Data ss:Type="String">Amir</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Agha Khan III, Muhammad Chah</Data></Cell>
+    <Cell><Data ss:Type="String">Muhammad Chah</Data></Cell>
+    <Cell><Data ss:Type="String">aghakh1</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Muhammad Chah</Data></Cell>
+    <Cell><Data ss:Type="String">1877</Data></Cell>
+    <Cell><Data ss:Type="String">1957</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Agnès</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">agnes1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">personnage de &quot;l'Ecole des femmes&quot;</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Agostinelli, famille</Data></Cell>
+    <Cell><Data ss:Type="String">famille</Data></Cell>
+    <Cell><Data ss:Type="String">agosti0</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Agostinelli, Alfred</Data></Cell>
+    <Cell><Data ss:Type="String">Alfred</Data></Cell>
+    <Cell><Data ss:Type="String">agosti1</Data></Cell>
+    <Cell><Data ss:Type="String">Agostinelli</Data></Cell>
+    <Cell><Data ss:Type="String">agosti0</Data></Cell>
+    <Cell><Data ss:Type="String">Alfred</Data></Cell>
+    <Cell><Data ss:Type="String">1888</Data></Cell>
+    <Cell><Data ss:Type="String">1914</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">chauffeur</Data></Cell>
+    <Cell><Data ss:Type="String">chauffeur; secretary</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">agosti5; agosti6</Data></Cell>
+    <Cell><Data ss:Type="String">agosti2</Data></Cell>
+    <Cell><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Agostinelli, Emile</Data></Cell>
+    <Cell><Data ss:Type="String">Emile</Data></Cell>
+    <Cell><Data ss:Type="String">agosti2</Data></Cell>
+    <Cell><Data ss:Type="String">Agostinelli</Data></Cell>
+    <Cell><Data ss:Type="String">agosti0</Data></Cell>
+    <Cell><Data ss:Type="String">Emile</Data></Cell>
+    <Cell><Data ss:Type="String">1898</Data></Cell>
+    <Cell><Data ss:Type="String">1918</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">frère d'Alfred Agostinelli</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String">agosti4</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">agosti5; agosti6</Data></Cell>
+    <Cell><Data ss:Type="String">agosti1</Data></Cell>
+    <Cell><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Agostinelli, Anna Square, dite Anna</Data></Cell>
+    <Cell><Data ss:Type="String">Anna Square, dite Anna</Data></Cell>
+    <Cell><Data ss:Type="String">agosti3</Data></Cell>
+    <Cell><Data ss:Type="String">Agostinelli; Square</Data></Cell>
+    <Cell><Data ss:Type="String">agosti0</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Compagne d'Alfred Agostinelli</Data></Cell>
+    <Cell><Data ss:Type="String">companion</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Agostinelli, Mme Emile</Data></Cell>
+    <Cell><Data ss:Type="String">Mme Emile</Data></Cell>
+    <Cell><Data ss:Type="String">agosti4</Data></Cell>
+    <Cell><Data ss:Type="String">Agostinelli</Data></Cell>
+    <Cell><Data ss:Type="String">agosti0</Data></Cell>
+    <Cell><Data ss:Type="String">Mme Emile</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String">agosti2</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Agostinelli, Eugène</Data></Cell>
+    <Cell><Data ss:Type="String">Eugène</Data></Cell>
+    <Cell><Data ss:Type="String">agosti5</Data></Cell>
+    <Cell><Data ss:Type="String">Agostinelli</Data></Cell>
+    <Cell><Data ss:Type="String">agosti0</Data></Cell>
+    <Cell><Data ss:Type="String">Eugène</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">père d'Alfred et Emile Agostinelli</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String">agosti6</Data></Cell>
+    <Cell><Data ss:Type="String">agosti1; agosti2</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Agostinelli, Marie-Louise Bensa, Mme Vittoré, puis Mme Eugène</Data></Cell>
+    <Cell><Data ss:Type="String">Marie-Louise Bensa, Mme Vittoré, puis Mme Eugène</Data></Cell>
+    <Cell><Data ss:Type="String">agosti6</Data></Cell>
+    <Cell><Data ss:Type="String">Agostinelli; Vittoré; Bensa</Data></Cell>
+    <Cell><Data ss:Type="String">agosti0</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">mère d'Alfred et Emile Agostinelli</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String">agosti5</Data></Cell>
+    <Cell><Data ss:Type="String">agosti1; agosti2</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Agoult, Marie de Flavigny, comtesse Charles d'; pseud. Daniel Stern</Data></Cell>
+    <Cell><Data ss:Type="String">Marie de Flavigny, comtesse Charles d'; pseud. Daniel Stern</Data></Cell>
+    <Cell><Data ss:Type="String">agoult1</Data></Cell>
+    <Cell><Data ss:Type="String">Agoult; Flavigny</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">1805</Data></Cell>
+    <Cell><Data ss:Type="String">1876</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Countess</Data></Cell>
+    <Cell><Data ss:Type="String">écrivain</Data></Cell>
+    <Cell><Data ss:Type="String">writer</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Agüera, François-G. de</Data></Cell>
+    <Cell><Data ss:Type="String">François-G. de</Data></Cell>
+    <Cell><Data ss:Type="String">aguera1</Data></Cell>
+    <Cell><Data ss:Type="String">Agüera</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Aguirre, Mlle</Data></Cell>
+    <Cell><Data ss:Type="String">Mlle</Data></Cell>
+    <Cell><Data ss:Type="String">aguirr1</Data></Cell>
+    <Cell><Data ss:Type="String">Aguirre</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Mlle</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">chez Mme E. Seminario</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Aicard, Jean</Data></Cell>
+    <Cell><Data ss:Type="String">Jean</Data></Cell>
+    <Cell><Data ss:Type="String">aicard1</Data></Cell>
+    <Cell><Data ss:Type="String">Aicard</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Jean</Data></Cell>
+    <Cell><Data ss:Type="String">1848</Data></Cell>
+    <Cell><Data ss:Type="String">1921</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">écrivain</Data></Cell>
+    <Cell><Data ss:Type="String">writer</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">Aicard, Jean, 1848-1921</Data></Cell>
+    <Cell><Data ss:Type="String">41835648</Data></Cell>
+    <Cell><Data ss:Type="String">https://en.wikipedia.org/wiki/Jean_Aicard</Data></Cell>
+    <Cell><Data ss:Type="String">https://fr.wikipedia.org/wiki/Jean_Aicard</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Aiguillon, duc d'</Data></Cell>
+    <Cell><Data ss:Type="String">duc d'</Data></Cell>
+    <Cell><Data ss:Type="String">aiguil1</Data></Cell>
+    <Cell><Data ss:Type="String">Aiguillon</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">duc d'</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">Aiguillon, Armand de Vignerot du Plessis de Richelieu, 1761-1800, duc d'</Data></Cell>
+    <Cell><Data ss:Type="String">59194207</Data></Cell>
+    <Cell><Data ss:Type="String">https://en.wikipedia.org/wiki/Armand,_duc_d'Aiguillon</Data></Cell>
+    <Cell><Data ss:Type="String">https://fr.wikipedia.org/wiki/Armand-Désiré_de_Vignerot_du_Plessis</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Aiguy, baron Raymond d'</Data></Cell>
+    <Cell><Data ss:Type="String">baron Raymond d'</Data></Cell>
+    <Cell><Data ss:Type="String">aiguy1</Data></Cell>
+    <Cell><Data ss:Type="String">Aiguy</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">baron Raymond d'</Data></Cell>
+    <Cell><Data ss:Type="String">1880</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Baron</Data></Cell>
+    <Cell><Data ss:Type="String">administrateur de société</Data></Cell>
+    <Cell><Data ss:Type="String">administrator</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Aiguy, vicomte René d'</Data></Cell>
+    <Cell><Data ss:Type="String">vicomte René d'</Data></Cell>
+    <Cell><Data ss:Type="String">aiguy2</Data></Cell>
+    <Cell><Data ss:Type="String">Aiguy</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">vicomte René d'</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">1914</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Vicount</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ainslie, Grant Duff Douglas</Data></Cell>
+    <Cell><Data ss:Type="String">Grant Duff Douglas</Data></Cell>
+    <Cell><Data ss:Type="String">ainsli1</Data></Cell>
+    <Cell><Data ss:Type="String">Ainslie</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Grant Duff Douglas</Data></Cell>
+    <Cell><Data ss:Type="String">1865</Data></Cell>
+    <Cell><Data ss:Type="String">1948</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Aïssé, Charlotte-Elisabeth</Data></Cell>
+    <Cell><Data ss:Type="String">Charlotte-Elisabeth</Data></Cell>
+    <Cell><Data ss:Type="String">aisse1</Data></Cell>
+    <Cell><Data ss:Type="String">Aïssé</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Charlotte-Elisabeth</Data></Cell>
+    <Cell><Data ss:Type="String">1695</Data></Cell>
+    <Cell><Data ss:Type="String">1733</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">femme de lettres</Data></Cell>
+    <Cell><Data ss:Type="String">femme de lettres</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Ajalbert, Jean</Data></Cell>
+    <Cell><Data ss:Type="String">Jean</Data></Cell>
+    <Cell><Data ss:Type="String">ajalbe1</Data></Cell>
+    <Cell><Data ss:Type="String">Ajalbert</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Jean</Data></Cell>
+    <Cell><Data ss:Type="String">1863</Data></Cell>
+    <Cell><Data ss:Type="String">1947</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">Ajalbert, Jean, 1863-1947</Data></Cell>
+    <Cell><Data ss:Type="String">41835682</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">https://fr.wikipedia.org/wiki/Jean_Ajalbert</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Akadémos</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">akadem1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">pseudonyme d'un collaborateur du Gil Blas</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Akerman, Henrik</Data></Cell>
+    <Cell><Data ss:Type="String">Henrik</Data></Cell>
+    <Cell><Data ss:Type="String">akerma1</Data></Cell>
+    <Cell><Data ss:Type="String">Akerman</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Henrik</Data></Cell>
+    <Cell><Data ss:Type="String">1840</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Swedish</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">diplomate suédois</Data></Cell>
+    <Cell><Data ss:Type="String">diplomat</Data></Cell>
+    <Cell><Data ss:Type="String">akerma2</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Akerman, baronne Liljencrantz, Mme M.</Data></Cell>
+    <Cell><Data ss:Type="String">baronne Liljencrantz, Mme M.</Data></Cell>
+    <Cell><Data ss:Type="String">akerma2</Data></Cell>
+    <Cell><Data ss:Type="String">Akerman</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">Swedish</Data></Cell>
+    <Cell><Data ss:Type="String">Baroness</Data></Cell>
+    <Cell><Data ss:Type="String">wife of: l'ambassadeur de Suède</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String">akerma1</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Aladin</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">aladin1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">personnage d'un conte des Mille et Une Nuits</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Alain-Fournier, Henri-Alban Fournier, dit</Data></Cell>
+    <Cell><Data ss:Type="String">Henri-Alban Fournier, dit</Data></Cell>
+    <Cell><Data ss:Type="String">alainf1</Data></Cell>
+    <Cell><Data ss:Type="String">Alain-Fournier</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">1886</Data></Cell>
+    <Cell><Data ss:Type="String">1914</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">beau-frère de Jacques Rivière; brother-in-law of rivier2</Data></Cell>
+    <Cell><Data ss:Type="String">writer</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Albalat, Antoine</Data></Cell>
+    <Cell><Data ss:Type="String">Antoine</Data></Cell>
+    <Cell><Data ss:Type="String">albala1</Data></Cell>
+    <Cell><Data ss:Type="String">Albalat</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Antoine</Data></Cell>
+    <Cell><Data ss:Type="String">1856</Data></Cell>
+    <Cell><Data ss:Type="String">1935</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">homme de lettres</Data></Cell>
+    <Cell><Data ss:Type="String">homme de lettres</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">Albalat, Antoine, 1856-1935</Data></Cell>
+    <Cell><Data ss:Type="String">2566708</Data></Cell>
+    <Cell><Data ss:Type="String">https://en.wikipedia.org/wiki/Antoine_Albalat</Data></Cell>
+    <Cell><Data ss:Type="String">https://fr.wikipedia.org/wiki/Antoine_Albalat</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Albaret, Céleste Gineste, Mme Odilon</Data></Cell>
+    <Cell><Data ss:Type="String">Céleste Gineste, Mme Odilon</Data></Cell>
+    <Cell><Data ss:Type="String">albare1</Data></Cell>
+    <Cell><Data ss:Type="String">Albaret; Gineste</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">1891</Data></Cell>
+    <Cell><Data ss:Type="String">1984</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">aunt of: larivi1</Data></Cell>
+    <Cell><Data ss:Type="String">housekeeper</Data></Cell>
+    <Cell><Data ss:Type="String">albare2</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">ginest1</Data></Cell>
+    <Cell><Data ss:Type="String">ginest2</Data></Cell>
+    <Cell><Data ss:Type="String">False</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">https://fr.wikipedia.org/wiki/Céleste_Albaret</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Albaret, Odilon</Data></Cell>
+    <Cell><Data ss:Type="String">Odilon</Data></Cell>
+    <Cell><Data ss:Type="String">albare2</Data></Cell>
+    <Cell><Data ss:Type="String">Albaret</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Odilon</Data></Cell>
+    <Cell><Data ss:Type="String">1881</Data></Cell>
+    <Cell><Data ss:Type="String">1960</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">chauffeur de taxi</Data></Cell>
+    <Cell><Data ss:Type="String">taxi driver</Data></Cell>
+    <Cell><Data ss:Type="String">albare1</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">albare3</Data></Cell>
+    <Cell><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">Albaret, Odilon 1881-1960</Data></Cell>
+    <Cell><Data ss:Type="String">316448259</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Albaret, Léontine</Data></Cell>
+    <Cell><Data ss:Type="String">Léontine</Data></Cell>
+    <Cell><Data ss:Type="String">albare3</Data></Cell>
+    <Cell><Data ss:Type="String">Albaret</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Léontine</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">soeur d'Odilon Albaret</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">albare2</Data></Cell>
+    <Cell><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Alba de Tormes, Jacobo Stuart Fitz-James Falco-Portocarrero, 10e duc de Berwick, 17e duc de</Data></Cell>
+    <Cell><Data ss:Type="String">Jacobo Stuart Fitz-James Falco-Portocarrero, 10e duc de Berwick, 17e duc de</Data></Cell>
+    <Cell><Data ss:Type="String">albato1</Data></Cell>
+    <Cell><Data ss:Type="String">Alba de Tormes</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">1878</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Albe, Maria de Fernan-Nunez, duchesse d'</Data></Cell>
+    <Cell><Data ss:Type="String">Maria de Fernan-Nunez, duchesse d'</Data></Cell>
+    <Cell><Data ss:Type="String">albe1</Data></Cell>
+    <Cell><Data ss:Type="String">Albe</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">1854</Data></Cell>
+    <Cell><Data ss:Type="String">1904</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Duchess</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Alber, professeur</Data></Cell>
+    <Cell><Data ss:Type="String">professeur</Data></Cell>
+    <Cell><Data ss:Type="String">alber1</Data></Cell>
+    <Cell><Data ss:Type="String">Alber</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">professeur</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">prestidigitateur</Data></Cell>
+    <Cell><Data ss:Type="String">conjurer</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Albers, Henri</Data></Cell>
+    <Cell><Data ss:Type="String">Henri</Data></Cell>
+    <Cell><Data ss:Type="String">albers1</Data></Cell>
+    <Cell><Data ss:Type="String">Albers</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Henri</Data></Cell>
+    <Cell><Data ss:Type="String">1866</Data></Cell>
+    <Cell><Data ss:Type="String">1926</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">chanteur</Data></Cell>
+    <Cell><Data ss:Type="String">singer</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">Albers, Henri, 1866-1926</Data></Cell>
+    <Cell><Data ss:Type="String">51890050</Data></Cell>
+    <Cell><Data ss:Type="String">https://en.wikipedia.org/wiki/Henri_Albers</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Albert</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">albert1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">prénom d'un ami de Yeatman</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Albertine</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">albert2</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">personnage de La Recherche du temps perdu</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Albert, Prince de Saxe-Cobourg-et-Gotha, Prince consort</Data></Cell>
+    <Cell><Data ss:Type="String">Prince de Saxe-Cobourg-et-Gotha, Prince consort</Data></Cell>
+    <Cell><Data ss:Type="String">albert3</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">1819</Data></Cell>
+    <Cell><Data ss:Type="String">1861</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">German; English</Data></Cell>
+    <Cell><Data ss:Type="String">Prince Consort</Data></Cell>
+    <Cell><Data ss:Type="String">époux de la reine Victoria d'Angleterre</Data></Cell>
+    <Cell><Data ss:Type="String">prince consort</Data></Cell>
+    <Cell><Data ss:Type="String">victor1</Data></Cell>
+    <Cell><Data ss:Type="String">batten2</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Albufera, marquis Louis d'</Data></Cell>
+    <Cell><Data ss:Type="String">marquis Louis d'</Data></Cell>
+    <Cell><Data ss:Type="String">albufe1</Data></Cell>
+    <Cell><Data ss:Type="String">Albufera</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">marquis Louis d'</Data></Cell>
+    <Cell><Data ss:Type="String">1877</Data></Cell>
+    <Cell><Data ss:Type="String">1953</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Marquis</Data></Cell>
+    <Cell><Data ss:Type="String">&quot;Albu&quot;</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String">albufe4</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">albufe2; albufe3</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Albufera, Raoul Suchet, 3e duc d'</Data></Cell>
+    <Cell><Data ss:Type="String">Raoul Suchet, 3e duc d'</Data></Cell>
+    <Cell><Data ss:Type="String">albufe2</Data></Cell>
+    <Cell><Data ss:Type="String">Albufera</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">1845</Data></Cell>
+    <Cell><Data ss:Type="String">1925</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Duke</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String">albufe3</Data></Cell>
+    <Cell><Data ss:Type="String">albufe1</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Albufera, Zénaïde de Cambacérès, duchesse Raoul d'</Data></Cell>
+    <Cell><Data ss:Type="String">Zénaïde de Cambacérès, duchesse Raoul d'</Data></Cell>
+    <Cell><Data ss:Type="String">albufe3</Data></Cell>
+    <Cell><Data ss:Type="String">Albufera; Cambacérès</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">1857</Data></Cell>
+    <Cell><Data ss:Type="String">1932</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Duchess</Data></Cell>
+    <Cell><Data ss:Type="String">soeur de la duchesse de Feltre</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String">albufe2</Data></Cell>
+    <Cell><Data ss:Type="String">albufe1</Data></Cell>
+    <Cell><Data ss:Type="String">cambac1; cambac2</Data></Cell>
+    <Cell><Data ss:Type="String">feltre1</Data></Cell>
+    <Cell><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Albufera, Anna Masséna D'Essling, marquise Louis d'</Data></Cell>
+    <Cell><Data ss:Type="String">Anna Masséna D'Essling, marquise Louis d'</Data></Cell>
+    <Cell><Data ss:Type="String">albufe4</Data></Cell>
+    <Cell><Data ss:Type="String">Albufera; Essling</Data></Cell>
+    <Cell><Data ss:Type="String">esslin0</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">1884</Data></Cell>
+    <Cell><Data ss:Type="String">1967</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Marquise</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String">albufe1</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">esslin1; esslin2</Data></Cell>
+    <Cell><Data ss:Type="String">esslin3; monfez27</Data></Cell>
+    <Cell><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Alcantara, Pedro II d'; empereur du Brésil</Data></Cell>
+    <Cell><Data ss:Type="String">Pedro II d'; empereur du Brésil</Data></Cell>
+    <Cell><Data ss:Type="String">alcant1</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">1825</Data></Cell>
+    <Cell><Data ss:Type="String">1891</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Brasilian</Data></Cell>
+    <Cell><Data ss:Type="String">Emperor</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Alden, Douglas W.</Data></Cell>
+    <Cell><Data ss:Type="String">Douglas W.</Data></Cell>
+    <Cell><Data ss:Type="String">alden1</Data></Cell>
+    <Cell><Data ss:Type="String">Alden</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">1999</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">professeur de littérature française américain</Data></Cell>
+    <Cell><Data ss:Type="String">professor</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Aldington, Edward Godfree, alias Richard Aldington.</Data></Cell>
+    <Cell><Data ss:Type="String">Edward Godfree, alias Richard Aldington.</Data></Cell>
+    <Cell><Data ss:Type="String">alding1</Data></Cell>
+    <Cell><Data ss:Type="String">Aldington</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">1892</Data></Cell>
+    <Cell><Data ss:Type="String">1962</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Romancier et poète anglais</Data></Cell>
+    <Cell><Data ss:Type="String">poet; novelist</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Alençon, Emilie Andrée, dite Emilienne d'</Data></Cell>
+    <Cell><Data ss:Type="String">Emilie Andrée, dite Emilienne d'</Data></Cell>
+    <Cell><Data ss:Type="String">alenco1</Data></Cell>
+    <Cell><Data ss:Type="String">Alençon</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">actrice</Data></Cell>
+    <Cell><Data ss:Type="String">actress</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Alès, Adhémar d'</Data></Cell>
+    <Cell><Data ss:Type="String">Adhémar d'</Data></Cell>
+    <Cell><Data ss:Type="String">ales1</Data></Cell>
+    <Cell><Data ss:Type="String">Alès</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Adhémar d'</Data></Cell>
+    <Cell><Data ss:Type="String">1861</Data></Cell>
+    <Cell><Data ss:Type="String">1938</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">abbé</Data></Cell>
+    <Cell><Data ss:Type="String">abbot</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">Alès, Adhémar d', 1861-1938</Data></Cell>
+    <Cell><Data ss:Type="String">64130507</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Alexandre le Grand</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">alexan1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Greek</Data></Cell>
+    <Cell><Data ss:Type="String">King</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">king</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Alexandre, Arsène</Data></Cell>
+    <Cell><Data ss:Type="String">Arsène</Data></Cell>
+    <Cell><Data ss:Type="String">alexan2</Data></Cell>
+    <Cell><Data ss:Type="String">Alexandre</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Arsène</Data></Cell>
+    <Cell><Data ss:Type="String">1859</Data></Cell>
+    <Cell><Data ss:Type="String">1937</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">critique d'art</Data></Cell>
+    <Cell><Data ss:Type="String">art critic; journalist</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">Alexandre, Arséne, 1859-1937</Data></Cell>
+    <Cell><Data ss:Type="String">142432</Data></Cell>
+    <Cell><Data ss:Type="String">https://en.wikipedia.org/wiki/Arsène_Alexandre</Data></Cell>
+    <Cell><Data ss:Type="String">https://fr.wikipedia.org/wiki/Arsène_Alexandre</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Alexandre Ier, roi de Serbie</Data></Cell>
+    <Cell><Data ss:Type="String">roi de Serbie</Data></Cell>
+    <Cell><Data ss:Type="String">alexan3</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">roi de Serbie</Data></Cell>
+    <Cell><Data ss:Type="String">1876</Data></Cell>
+    <Cell><Data ss:Type="String">1903</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell><Data ss:Type="String">Serbian</Data></Cell>
+    <Cell><Data ss:Type="String">King</Data></Cell>
+    <Cell ss:Index="13"><Data ss:Type="String">king</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Alexandre, André</Data></Cell>
+    <Cell><Data ss:Type="String">André</Data></Cell>
+    <Cell><Data ss:Type="String">alexan4</Data></Cell>
+    <Cell><Data ss:Type="String">Alexandre</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">André</Data></Cell>
+    <Cell><Data ss:Type="String">1860</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">poète</Data></Cell>
+    <Cell><Data ss:Type="String">poet; dramatist</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Alexandra, reine d'Angleterre</Data></Cell>
+    <Cell><Data ss:Type="String">reine d'Angleterre</Data></Cell>
+    <Cell><Data ss:Type="String">alexan5</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">reine d'Angleterre</Data></Cell>
+    <Cell><Data ss:Type="String">1844</Data></Cell>
+    <Cell><Data ss:Type="String">1925</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">English</Data></Cell>
+    <Cell><Data ss:Type="String">Queen</Data></Cell>
+    <Cell><Data ss:Type="String">wife of: Edouard VII</Data></Cell>
+    <Cell><Data ss:Type="String">queen</Data></Cell>
+    <Cell><Data ss:Type="String">edouar7</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Alexandrov ou Alexandroff, mssr.</Data></Cell>
+    <Cell><Data ss:Type="String">mssr.</Data></Cell>
+    <Cell><Data ss:Type="String">alexan6</Data></Cell>
+    <Cell><Data ss:Type="String">Alexandrov</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">danseur</Data></Cell>
+    <Cell><Data ss:Type="String">dancer</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Alexis, Paul</Data></Cell>
+    <Cell><Data ss:Type="String">Paul</Data></Cell>
+    <Cell><Data ss:Type="String">alexis1</Data></Cell>
+    <Cell><Data ss:Type="String">Alexis</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Paul</Data></Cell>
+    <Cell ss:Index="8"><Data ss:Type="String">1901</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">traducteur de la pièce Le Sycomore</Data></Cell>
+    <Cell><Data ss:Type="String">translator</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Alfredo</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">alfred1</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">personnage de La Traviata</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Alglave, Dr Paul</Data></Cell>
+    <Cell><Data ss:Type="String">Dr Paul</Data></Cell>
+    <Cell><Data ss:Type="String">alglav1</Data></Cell>
+    <Cell><Data ss:Type="String">Alglave</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Dr Paul</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Aliénor d'Aquitaine</Data></Cell>
+    <Cell ss:Index="3"><Data ss:Type="String">alieno1</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">1122</Data></Cell>
+    <Cell><Data ss:Type="String">1204</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell><Data ss:Type="String">French; English</Data></Cell>
+    <Cell><Data ss:Type="String">Queen</Data></Cell>
+    <Cell><Data ss:Type="String">reine de France puis d'Angleterre</Data></Cell>
+    <Cell><Data ss:Type="String">queen</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Aligre, marquise d'; née De Preaulx</Data></Cell>
+    <Cell><Data ss:Type="String">marquise d'; née De Preaulx</Data></Cell>
+    <Cell><Data ss:Type="String">aligre1</Data></Cell>
+    <Cell><Data ss:Type="String">Aligre; De Preaulx</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="11"><Data ss:Type="String">Marquise</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Allard, Adeline</Data></Cell>
+    <Cell><Data ss:Type="String">Adeline</Data></Cell>
+    <Cell><Data ss:Type="String">allard1</Data></Cell>
+    <Cell><Data ss:Type="String">Allard</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Adeline</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">Chez les Daudet. Peut-être une soeur de Marthe Allard?</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">allard3; allard9</Data></Cell>
+    <Cell><Data ss:Type="String">allard10; daudet6</Data></Cell>
+    <Cell><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Allard, Renée</Data></Cell>
+    <Cell><Data ss:Type="String">Renée</Data></Cell>
+    <Cell><Data ss:Type="String">allard10</Data></Cell>
+    <Cell><Data ss:Type="String">Allard</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Renée</Data></Cell>
+    <Cell><Data ss:Type="String">1878</Data></Cell>
+    <Cell><Data ss:Type="String">1913</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">soeur de Mme Léon Daudet</Data></Cell>
+    <Cell ss:Index="16"><Data ss:Type="String">allard3; allard9</Data></Cell>
+    <Cell><Data ss:Type="String">allard1; daudet6</Data></Cell>
+    <Cell><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Allard, Roger</Data></Cell>
+    <Cell><Data ss:Type="String">Roger</Data></Cell>
+    <Cell><Data ss:Type="String">allard11</Data></Cell>
+    <Cell><Data ss:Type="String">Allard</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Roger</Data></Cell>
+    <Cell><Data ss:Type="String">1885</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">critique littéraire</Data></Cell>
+    <Cell><Data ss:Type="String">literary critic</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Allard, Eugène</Data></Cell>
+    <Cell><Data ss:Type="String">Eugène</Data></Cell>
+    <Cell><Data ss:Type="String">allard2</Data></Cell>
+    <Cell><Data ss:Type="String">Allard</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Eugène</Data></Cell>
+    <Cell ss:Index="9"><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">auteur d'un questionnaire dans le Figaro</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">Allard, Euge_ne</Data></Cell>
+    <Cell><Data ss:Type="String">208183518</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Allard, Anna Daudet, Mme Léon</Data></Cell>
+    <Cell><Data ss:Type="String">Anna Daudet, Mme Léon</Data></Cell>
+    <Cell><Data ss:Type="String">allard3</Data></Cell>
+    <Cell><Data ss:Type="String">Allard; Daudet</Data></Cell>
+    <Cell><Data ss:Type="String">daudet0</Data></Cell>
+    <Cell ss:Index="7"><Data ss:Type="String">1848</Data></Cell>
+    <Cell><Data ss:Type="String">1936</Data></Cell>
+    <Cell><Data ss:Type="String">Female</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">soeur d'Alphonse Daudet</Data></Cell>
+    <Cell ss:Index="14"><Data ss:Type="String">allard9</Data></Cell>
+    <Cell><Data ss:Type="String">allard1; allard10; daudet6</Data></Cell>
+    <Cell ss:Index="17"><Data ss:Type="String">daudet3; daudet7</Data></Cell>
+    <Cell><Data ss:Type="String">False</Data></Cell>
+   </Row>
+   <Row>
+    <Cell><Data ss:Type="String">Allard, Maurice</Data></Cell>
+    <Cell><Data ss:Type="String">Maurice</Data></Cell>
+    <Cell><Data ss:Type="String">allard4</Data></Cell>
+    <Cell><Data ss:Type="String">Allard</Data></Cell>
+    <Cell ss:Index="6"><Data ss:Type="String">Maurice</Data></Cell>
+    <Cell><Data ss:Type="String">1860</Data></Cell>
+    <Cell><Data ss:Type="String">1942</Data></Cell>
+    <Cell><Data ss:Type="String">Male</Data></Cell>
+    <Cell ss:Index="12"><Data ss:Type="String">parlementaire</Data></Cell>
+    <Cell><Data ss:Type="String">parliamentarian</Data></Cell>
+    <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
+    <Cell><Data ss:Type="String">Allard, Maurice 1860-1942</Data></Cell>
+    <Cell><Data ss:Type="String">7532157</Data></Cell>
+    <Cell ss:Index="22"><Data ss:Type="String">https://fr.wikipedia.org/wiki/Maurice_Allard_(homme_politique)</Data></Cell>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Selected/>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>105</ActiveRow>
+     <ActiveCol>7</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+ </Worksheet>
+</Workbook>
