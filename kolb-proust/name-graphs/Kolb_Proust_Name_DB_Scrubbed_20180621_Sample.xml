@@ -8,8 +8,8 @@
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <Author>Kudeki, Deren Emre</Author>
   <LastAuthor>Kudeki, Deren Emre</LastAuthor>
-  <Created>2018-06-22T15:23:57Z</Created>
-  <LastSaved>2018-06-22T15:24:50Z</LastSaved>
+  <Created>2018-06-22T20:16:31Z</Created>
+  <LastSaved>2018-06-22T20:16:49Z</LastSaved>
   <Version>15.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -32,7 +32,7 @@
    <NumberFormat/>
    <Protection/>
   </Style>
-  <Style ss:ID="s64">
+  <Style ss:ID="s62">
    <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"
     ss:Bold="1"/>
   </Style>
@@ -40,30 +40,30 @@
  <Worksheet ss:Name="Sheet1">
   <Table ss:ExpandedColumnCount="23" ss:ExpandedRowCount="101" x:FullColumns="1"
    x:FullRows="1" ss:DefaultRowHeight="15">
-   <Row>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">FullName</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">AfterComma</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">localId</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">familyName</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">memberOf</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">givenName</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">birthDate</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">deathDate</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">gender</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">nationality</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">honorificPrefix</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">description</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">jobTitle</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">spouse</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">children</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">parent</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">sibling</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">Record_About</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">VIAF_Name</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">VIAF_Link</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">EN_WIKIPEDIA</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">FR_WIKIPEDIA</Data></Cell>
-    <Cell ss:StyleID="s64"><Data ss:Type="String">Other Sources</Data></Cell>
+   <Row ss:StyleID="s62">
+    <Cell><Data ss:Type="String">FullName</Data></Cell>
+    <Cell><Data ss:Type="String">AfterComma</Data></Cell>
+    <Cell><Data ss:Type="String">localId</Data></Cell>
+    <Cell><Data ss:Type="String">familyName</Data></Cell>
+    <Cell><Data ss:Type="String">memberOf</Data></Cell>
+    <Cell><Data ss:Type="String">givenName</Data></Cell>
+    <Cell><Data ss:Type="String">birthDate</Data></Cell>
+    <Cell><Data ss:Type="String">deathDate</Data></Cell>
+    <Cell><Data ss:Type="String">gender</Data></Cell>
+    <Cell><Data ss:Type="String">nationality</Data></Cell>
+    <Cell><Data ss:Type="String">honorificPrefix</Data></Cell>
+    <Cell><Data ss:Type="String">description</Data></Cell>
+    <Cell><Data ss:Type="String">jobTitle</Data></Cell>
+    <Cell><Data ss:Type="String">spouse</Data></Cell>
+    <Cell><Data ss:Type="String">children</Data></Cell>
+    <Cell><Data ss:Type="String">parent</Data></Cell>
+    <Cell><Data ss:Type="String">sibling</Data></Cell>
+    <Cell><Data ss:Type="String">Record_About</Data></Cell>
+    <Cell><Data ss:Type="String">VIAF_Name</Data></Cell>
+    <Cell><Data ss:Type="String">VIAF_Link</Data></Cell>
+    <Cell><Data ss:Type="String">EN_WIKIPEDIA</Data></Cell>
+    <Cell><Data ss:Type="String">FR_WIKIPEDIA</Data></Cell>
+    <Cell><Data ss:Type="String">Other Sources</Data></Cell>
    </Row>
    <Row>
     <Cell><Data ss:Type="String">Abbema, Louise</Data></Cell>
@@ -1280,8 +1280,7 @@
    <Panes>
     <Pane>
      <Number>3</Number>
-     <ActiveRow>105</ActiveRow>
-     <ActiveCol>7</ActiveCol>
+     <RangeSelection>R1:R101</RangeSelection>
     </Pane>
    </Panes>
    <ProtectObjects>False</ProtectObjects>
