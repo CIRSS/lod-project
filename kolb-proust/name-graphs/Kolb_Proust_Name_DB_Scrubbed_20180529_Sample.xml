@@ -8,8 +8,8 @@
  <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
   <Author>Kudeki, Deren Emre</Author>
   <LastAuthor>Kudeki, Deren Emre</LastAuthor>
-  <Created>2018-06-22T20:16:31Z</Created>
-  <LastSaved>2018-06-22T20:16:49Z</LastSaved>
+  <Created>2018-06-29T18:39:33Z</Created>
+  <LastSaved>2018-06-29T18:39:56Z</LastSaved>
   <Version>15.00</Version>
  </DocumentProperties>
  <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
@@ -165,7 +165,6 @@
     <Cell><Data ss:Type="String">Female</Data></Cell>
     <Cell ss:Index="11"><Data ss:Type="String">Duchess</Data></Cell>
     <Cell><Data ss:Type="String">wife of: général Andoche Junot</Data></Cell>
-    <Cell ss:Index="14"><Data ss:Type="String">Junot, Andoche (Général)</Data></Cell>
     <Cell ss:Index="18"><Data ss:Type="String">False</Data></Cell>
    </Row>
    <Row>

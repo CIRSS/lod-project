@@ -51,7 +51,7 @@
          </xsl:choose>
             
          <xsl:call-template name="parseValues">
-           <xsl:with-param name="valueKey">FullName</xsl:with-param></xsl:call-template>             
+           <xsl:with-param name="valueKey">name</xsl:with-param></xsl:call-template>             
          <xsl:call-template name="parseValues">
            <xsl:with-param name="valueKey">familyName</xsl:with-param></xsl:call-template>                                     
          <xsl:call-template name="parseValues">
